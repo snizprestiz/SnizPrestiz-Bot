@@ -1,0 +1,14 @@
+{
+	"files.exclude": {
+		"node_modules": true,
+		"package-lock.json": true,
+		"Build": true
+	},
+	"eslint.run": "onType",
+	"eslint.workingDirectories": ["src"],
+	"eslint.validate": [
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.enable": true
+}

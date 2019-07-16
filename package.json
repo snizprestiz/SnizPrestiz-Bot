@@ -1,0 +1,35 @@
+{
+  "name": "snizprestiz-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Build/Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snizprestiz/SnizPrestiz-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snizprestiz/SnizPrestiz-Bot/issues"
+  },
+  "homepage": "https://github.com/snizprestiz/SnizPrestiz-Bot#readme",
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "@typescript-eslint/parser": "^1.9.0",
+    "eslint": "^5.16.0",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "gulp-typescript": "^5.0.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "source-map-support": "^0.5.12",
+    "typescript-string-operations": "^1.3.1"
+  }
+}

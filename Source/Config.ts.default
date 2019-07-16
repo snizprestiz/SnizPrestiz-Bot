@@ -1,0 +1,11 @@
+/**
+ * Výchozí konfigurační soubor
+ * 
+ * Přejmenujte na Config.ts
+ */
+export class Config{
+	/**
+	 * Token Discord bota
+	 */
+	public static BotToken: string = ``;
+}
