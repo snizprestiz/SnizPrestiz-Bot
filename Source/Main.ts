@@ -3,6 +3,9 @@ import { Config } from "./Config";
 import { Bot } from "./Bot";
 import { HttpServer } from "./HttpServer";
 
+/**
+ * Hlavní spouštěcí soubor
+ */
 export class Main{
 	public constructor() {
 		console.log(`[NODE]`, `Enabling source map support...`);

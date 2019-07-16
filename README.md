@@ -2,7 +2,7 @@
 Discord Bot pro ověřování práv a rychlé posílání studijních materiálu na Sniž Prestiž (to teda ještě neumí, ale je to v plánu)
 
 ## Popis HTTP Api
-Součástí bota je HTTP server, port a rozhraní na kterém server naslouchá jde nastavit v konfiguračním souboru **Source/Config.ts**.
+Součástí bota je HTTP server pro komunikaci s botem. Port a rozhraní na kterém server naslouchá jde nastavit v konfiguračním souboru **Source/Config.ts**.
 
 Je doporučeno toto API používat na interní komunikaci a nemít je přístupné z venku (není řešena autorizace ani žádný zabezpečený přenos).
 
