@@ -8,4 +8,15 @@ export class Config{
 	 * Token Discord bota
 	 */
 	public static BotToken: string = ``;
+
+	/**
+	 * Port na kterém naslouchá HTTP server
+	 */
+	public static HttpPort: number = 42069;
+
+	/**
+	 * Na které adrese naslouchá HTTP server (doporučeno omezit na localhost)
+	 */
+	public static HttpHost?: string = `localhost`;
+	//public static HttpHost?: string; // Naslouchat na všech rozhraních 
 }
