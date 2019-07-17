@@ -15,8 +15,13 @@ export class Bot{
 		this.Client = new Discord.Client();
 
 		this.Client.on(`ready`, (): void => this.OnReady());
+		this.Client.on(`guildCreate`, (): void => this.OnReady());
+		this.Client.on(`guildDelete`, (): void => this.OnReady());
+		this.Client.on(`roleCreate`, (): void => this.OnReady());
+		this.Client.on(`roleDelete`, (): void => this.OnReady());
+		this.Client.on(`roleUpdate`, (): void => this.OnReady());
 		this.Client.on(`message`, (msg): void => this.OnMessage(msg));
-
+		
 		return new Promise<void>((resolve, reject): void => {
 			this.Client.once(`ready`, () => resolve());
 			try {
